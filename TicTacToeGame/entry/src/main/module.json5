@@ -1,0 +1,49 @@
+{
+  "module": {
+    "name": "entry",
+    "type": "entry",
+    "description": "$string:module_desc",
+    "mainElement": "EntryAbility",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "EntryAbility",
+        "srcEntry": "./ets/entryability/EntryAbility.ts",
+        "description": "$string:EntryAbility_desc",
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "ohos.extension.ability",
+              "value": "EntryAbility",
+              "resource": "$string:EntryAbility_label"
+            }
+          ]
+        },
+        "metadata": [
+          {
+            "name": "ohos.extension.ability",
+            "resource": "$string:EntryAbility_label"
+          }
+        ],
+        "launchType": "standard",
+        "visible": true,
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

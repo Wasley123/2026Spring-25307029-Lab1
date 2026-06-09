@@ -1,0 +1,9 @@
+{
+  "name": "tictactoegame",
+  "version": "1.0.0",
+  "description": "双人井字棋游戏",
+  "main": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}

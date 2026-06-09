@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "双人井字棋游戏模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "双人井字棋游戏"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "井字棋"
+    },
+    {
+      "name": "app_name",
+      "value": "井字棋"
+    }
+  ]
+}
